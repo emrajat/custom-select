@@ -1,0 +1,83 @@
+.custom-ui-select{
+    min-height: 48px;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    padding: 20px;
+    border: 1px solid #000;
+    padding: 16px;
+    height: 48px;
+    width: 240px;
+    min-width: 240px;
+    font-size: 14px;
+    border-radius: 0;
+    background: #fff;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.ui-selectmenu-icon{
+    background-image: url('../images/Chevron-Down.png');
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 16px;
+    position: absolute;
+    right: 12px;
+    top: 16px;
+
+}
+
+.custom-ui-select-position{
+    position: relative;
+}
+
+.custom-ui-select-dropdown-position{
+    position:absolute;
+    z-index: 2;
+    margin: 0;
+}
+
+.custom-ui-select-dropdown .active{
+    background: blue;
+    color: #fff; 
+}
+
+.custom-ui-select-dropdown ul{
+    padding: 0;
+    margin: 0;
+    background:#fff;
+    max-height: 218px;
+    overflow-y: scroll;
+}
+
+.custom-ui-select-dropdown{
+    display: none;
+    margin: 4px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+}
+
+.custom-ui-select-dropdown-open{
+    display: block;
+}
+
+.custom-ui-select-dropdown li{
+    background:#fff;
+    color: #000;
+    font-weight: 800;
+    list-style: none;
+    padding: 15px;
+}
+
+.custom-ui-select-dropdown li:hover{
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+}
